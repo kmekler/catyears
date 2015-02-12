@@ -13,6 +13,7 @@
 		C8C0BF891A6729E6009CF9C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C0BF881A6729E6009CF9C3 /* Images.xcassets */; };
 		C8C0BF8C1A6729E6009CF9C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8C0BF8A1A6729E6009CF9C3 /* LaunchScreen.xib */; };
 		C8C0BF981A6729E6009CF9C3 /* Cat_YearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C0BF971A6729E6009CF9C3 /* Cat_YearsTests.swift */; };
+		C8C0BFAA1A6F7165009CF9C3 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C0BFA91A6F7165009CF9C3 /* cat.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C8C0BF911A6729E6009CF9C3 /* Cat YearsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat YearsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C0BF961A6729E6009CF9C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8C0BF971A6729E6009CF9C3 /* Cat_YearsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_YearsTests.swift; sourceTree = "<group>"; };
+		C8C0BFA91A6F7165009CF9C3 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				C8C0BF811A6729E6009CF9C3 /* AppDelegate.swift */,
 				C8C0BF831A6729E6009CF9C3 /* ViewController.swift */,
 				C8C0BF851A6729E6009CF9C3 /* Main.storyboard */,
+				C8C0BFA91A6F7165009CF9C3 /* cat.jpg */,
 				C8C0BF881A6729E6009CF9C3 /* Images.xcassets */,
 				C8C0BF8A1A6729E6009CF9C3 /* LaunchScreen.xib */,
 				C8C0BF7F1A6729E6009CF9C3 /* Supporting Files */,
@@ -194,6 +197,7 @@
 			files = (
 				C8C0BF871A6729E6009CF9C3 /* Main.storyboard in Resources */,
 				C8C0BF8C1A6729E6009CF9C3 /* LaunchScreen.xib in Resources */,
+				C8C0BFAA1A6F7165009CF9C3 /* cat.jpg in Resources */,
 				C8C0BF891A6729E6009CF9C3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +409,7 @@
 				C8C0BF9D1A6729E6009CF9C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8C0BF9E1A6729E6009CF9C3 /* Build configuration list for PBXNativeTarget "Cat YearsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				C8C0BFA01A6729E6009CF9C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
